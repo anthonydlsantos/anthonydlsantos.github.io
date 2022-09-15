@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    font-family: "ubuntu", "sans-serif";
+    font-family: "Ubuntu", sans-serif;
 }
 
 body {
@@ -17,6 +17,7 @@ header {
 
 h1 { 
     font-size: 1.2rem;
+    font-weight: 400;
     margin-left: 5%;
 }
 
@@ -38,9 +39,10 @@ header button {
 
 #banner figure {
     background: #FFFBA5;
-    width: 40%;
+    width: 37%;
     height: 100%;
     margin-top: 5%;
+    margin-left: 7%;
     padding: 0% 0% 2% 2%;
     border-radius: 20px;
 }
@@ -65,13 +67,27 @@ header button {
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     font-family: "ubuntu","sans-serif";
-    font-weight: 400;
+    font-weight: 500;
 
 }
 
 #banner span {
     background: #FFFBA5;
     border-radius: 20px;
+}
+
+.lineDivisor {
+    width: 61%;
+    background: #b0b0b0;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.main {
+    padding: 1%;
+    margin-top: 5%;
 }
