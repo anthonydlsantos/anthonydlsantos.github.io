@@ -10,8 +10,7 @@
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet"> 
-
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet"> 
     <!-- css -->
     <link rel="stylesheet" href="./css/mainStyle.css">
 
@@ -20,25 +19,75 @@
     
     <header>
         <h1> _Anthony de los Santos </h1>
-        <button> &#8801; </button>
     </header>
 
+    <!-- Imagen para Background -->
+    <figure id="imgBg">
+        <img src="./img/mandubiRivera.png" alt=" Rivera -Uy | Frente de casa abuela. ">
+    </figure>
+    
+    <!-- Banner: Presentacion de la pagina -->
     <section id="banner">
-        <figure>
-            <img src="./img/frenteCasaAbuela.png" alt=" Rivera -Uy | Frente de casa abuela. ">
-        </figure>
-
-        <p> Aprender día a día, <br>
-           <span> avanzar </span>  ... de eso se trata 
-        </p>
-    </section>
-    <div class="lineDivisor"></div>
-
-    <section class="main">
+        <div class="relleno"></div>
         <article>
-            <p> En construcción :) </p>
+            <div class="lineDivisor"></div>
+         <p> 
+            Página personal para repositorios de github, 
+            proyectos personales, etc ... 
+         </p>
+
+            <div class="redesSociales">
+                <!-- Linkedin -->
+                <svg width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg" id="in" >
+                    <ellipse cx="18" cy="18.5" rx="18" ry="18.5" fill="#3D4FF7"/>
+                    <path d="M14.9806 24H12.5966V15.584H14.9806V24ZM15.2046 13.152C15.2046 13.5893 15.0606 13.936 14.7726 14.192C14.4952 14.4373 14.1646 14.56 13.7806 14.56C13.3966 14.56 13.0606 14.4373 12.7726 14.192C12.4952 13.936 12.3566 13.5893 12.3566 13.152C12.3566 12.7147 12.4952 12.3733 12.7726 12.128C13.0606 11.872 13.3966 11.744 13.7806 11.744C14.1646 11.744 14.4952 11.872 14.7726 12.128C15.0606 12.3733 15.2046 12.7147 15.2046 13.152ZM17.2216 15.872C17.6269 15.7547 18.1496 15.648 18.7896 15.552C19.4296 15.4453 20.1016 15.392 20.8056 15.392C21.5202 15.392 22.1122 15.488 22.5816 15.68C23.0616 15.8613 23.4402 16.1227 23.7176 16.464C23.9949 16.8053 24.1922 17.2107 24.3096 17.68C24.4269 18.1493 24.4856 18.672 24.4856 19.248V24H22.1016V19.536C22.1016 18.768 22.0002 18.224 21.7976 17.904C21.5949 17.584 21.2162 17.424 20.6616 17.424C20.4909 17.424 20.3096 17.4347 20.1176 17.456C19.9256 17.4667 19.7549 17.4827 19.6056 17.504V24H17.2216V15.872Z" fill="white"/>
+                </svg>
+                    
+                <p> <a href="https://www.linkedin.com/in/anthony-de-los-santos-epifanio/" target="_blank" > Linkedin </a> </p>
+
+                <!-- Gmail -->
+                <svg width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M35.5 18.5C35.5 28.4541 27.6522 36.5 18 36.5C8.34784 36.5 0.5 28.4541 0.5 18.5C0.5 8.54587 8.34784 0.5 18 0.5C27.6522 0.5 35.5 8.54587 35.5 18.5Z" fill="#F8F8FF" stroke="#2622FF"/>
+                    <rect x="8.78094" y="9.7679" width="4.05158" height="18.2321" rx="2.02579" fill="#2622FF"/>
+                    <rect x="22.9615" y="9.7679" width="4.05158" height="18.2321" rx="2.02579" fill="#08C704"/>
+                    <rect x="8" y="11.889" width="4.05158" height="13.25" rx="2.02579" transform="rotate(-45.4841 8 11.889)" fill="#FF4A4A"/>
+                    <rect x="23.2114" y="9.11864" width="4.05158" height="12.1547" rx="2.02579" transform="rotate(39.5671 23.2114 9.11864)" fill="#FF4A4A"/>
+                    <rect x="22.9615" y="9.7679" width="4.05158" height="6.07737" rx="2.02579" fill="#FFED4A"/>
+                </svg>
+
+                <p> e-mail: <i> agregdelossantos@gmail.com </i> </p>
+
+            </div>
+            <!-- Menu -->
+            <nav id="homeMenu">
+                <ul>
+                    <li> <a href="http://"> Novedades </a>  </li>
+                    <li> <a href="http://"> Repositorios </a>  </li>
+                    <li> <a href="http://"> Sobre mi </a> </li>
+                </ul>
+            </nav>
+        </article>
+        
+    </section>
+    
+    
+    <section id="novedades">
+        <div class="frase">
+            <p> Compartir saberes, aprender día a día ... </p>
+        </div>
+
+        <article>
+
         </article>
 
+    </section>
+
+    <section id="repositorios" >
+        <p> Repositorios ... </p>
+    </section>
+
+    <section id="sobreMi" >
+        <p> sobre mi ... </p>
     </section>
 
     <script src="./js/mainJs.js"></script>
