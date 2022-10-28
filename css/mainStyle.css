@@ -2,13 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     font-family: "Ubuntu", sans-serif;
-
+    scroll-behavior: smooth;
 }
 
 ::selection{
     background: violet;
 }
-
 
 header {
     padding: 1%;
@@ -17,6 +16,8 @@ header {
     margin-top: auto;
     margin-bottom: auto;
 }
+
+header button {display: none;}
 
 header h1 { 
     font-size: 1.2rem;
@@ -62,7 +63,7 @@ header h1 {
     width: 57%;
     height: 1px;
     background: black;
-    margin-top: 11%;
+    margin-top: 13%;
     margin-bottom: 1%;
     margin-left: auto;
     margin-right: auto;
@@ -113,13 +114,126 @@ header h1 {
     color: #997093;
 }
 
-#homeMenu a:hover {
+#homeMenu a:hover, #novedades a:hover, #repositorios a:hover {
     color: black;
     transition: 800ms;
 }
+
+#cerrarMenu {display: none;}
+#homeMenu h4 {display: none;}
 
 /* --- */
 .main {
     padding: 1%;
     margin-top: 5%;
 }
+
+/* novedades */
+
+.frase {
+    padding: 1%;
+    margin-top: 11%;
+}
+
+.frase p, #sobreMi .frase p {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-style: italic;
+    color: gray;
+    text-shadow: 0px 2px 6px #997093;
+    
+}
+
+#novedades, #repositorios, #sobreMi {
+    padding: 1%;
+    margin-top: 7%;
+    display: flex;
+    flex-direction: row;
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#novedades article,#repositorios article, #sobreMi article {
+    width: 61%;
+}
+
+#novedades header, #repositorios header, #sobreMi header {
+    padding: 1%;
+    border-bottom: 1px solid #ffd3f9;
+}
+
+#novedades h2, #repositorios h2, #sobreMi h2 {
+    font-size: 1rem;
+    padding-left: 2%;
+}
+
+#novedades h4 {
+    margin-top: 3%;
+    padding-left: 5%;
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+#novedades p, #repositorios p, #sobreMi p {
+    margin-top: 3%;
+    padding-left: 5%;
+    font-weight: 300;
+    font-size: .83rem;
+}
+
+#novedades figure {
+    width: 30%;
+    margin: auto;
+}
+
+#novedades figure img {
+    width: 392px;
+    padding: 1%;
+    margin-top: 13%;
+}
+
+#novedades a, #repositorios a {
+    font-size: .90rem;
+    text-decoration: none;
+    color: blueviolet;
+    margin-left: 80%;
+}
+#repositorios a {
+    margin-left: 3%;
+}
+
+#repositorios li {
+    display: block;
+    padding: 2%;
+}
+
+#sobreMi {
+    position: relative;
+}
+
+footer {
+    padding: 3%;
+    background: #997093;
+    text-align: center;
+    font-size: .83rem;
+}
+
+#sobreMi figure {
+    width: 357px;
+    margin-top: 8%;
+    margin-left: 5%;
+}
+#sobreMi img { 
+    width: 100%;
+    border-radius: 23px;
+    box-shadow: 0px 0px 11px rgb(221, 217, 217);
+}
+#sobreMi p {text-align: center;}
+#sobreMi p:nth-child(2) {
+    margin-top: 17%;
+}
+
+#sobreMi .frase  { margin-top: 3%; }

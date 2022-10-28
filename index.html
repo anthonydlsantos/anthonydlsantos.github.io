@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html>
+
+<!--  Anthony de los Santos -- Web para repositorios github  -->
+
+<html lang="es" >
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,13 +15,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet"> 
     <!-- css -->
-    <link rel="stylesheet" href="./css/mainStyle.css">
+    <link rel="stylesheet"  href="./css/mainStyle.css">
+    <link rel="stylesheet"  media="screen and (max-width: 640px)"  href="./css/mobileStyle.css">  <!-- cel style -->
 
 </head>
 <body>
     
     <header>
         <h1> _Anthony de los Santos </h1>
+        <button> &#8801; </button>
     </header>
 
     <!-- Imagen para Background -->
@@ -60,36 +65,107 @@
             </div>
             <!-- Menu -->
             <nav id="homeMenu">
+                <p id="cerrarMenu" > (x) </p>
+
                 <ul>
-                    <li> <a href="http://"> Novedades </a>  </li>
-                    <li> <a href="http://"> Repositorios </a>  </li>
-                    <li> <a href="http://"> Sobre mi </a> </li>
+                    <li> <a href="#novedades"> Novedades </a>  </li>
+                    <li> <a href="#repositorios"> Repositorios </a>  </li>
+                    <li> <a href="#sobreMi"> Sobre mi </a> </li>
                 </ul>
+
+                <h4> _ Anthony de los Santos </h4>
             </nav>
         </article>
         
     </section>
     
+    <div class="frase">
+        <p> "Aprender día a día, <b> avanzar </b> ... de eso se trata" </p>
+    </div>
     
+    <!-- Seccion de Novedades -->
     <section id="novedades">
-        <div class="frase">
-            <p> Compartir saberes, aprender día a día ... </p>
-        </div>
 
         <article>
+            <header>
+                <h2> Novedades.  </h2>
+            </header>
+
+            <!-- Ultima novedad/post/repo -->
+            <h4> Análisis de datos: Gasto Público social, Presupuesto Nacional 2015-2018 </h4>
+
+            <p>
+                Este es un proyecto práctico de Análisis de datos <i>(Básico)</i>. Para este proyecto se toman dos conjuntos de datos,
+                Gasto Público Social y Presupuesto Nacional 2015-2019. El trabajo de código en Python esta en un Colab y 
+                parte de la visualización se hace en Tableau Public. La idea es trabajar con los conjuntos de datos, 
+                esto es: Carga de dataset, filtro de datos, visualización, etc... 
+            </p>
+
+            <p>
+                _Comentarios: Se agradece cualquier crítica, comentario y/o sugerencia para agregar al proyecto. 
+            </p>
+            <a href="https://github.com/anthonydlsantos/ejemplos_python/tree/master/gastosPresupuesto" target="_blank" > Ver repositorio </a>
+            
+        </article>
+        <!-- Imagenes novedad -->
+        <figure>
+            <img src="img/novedadImg.png" alt="Imagen de Novedades">
+        </figure>
+
+    </section>
+
+    <!-- Seccion de repositorios -->
+    <section id="repositorios" >
+        <article>
+            <header>
+                <h2> Repositorios. </h2>
+            </header>
+
+            <p>Lista de repositorios: </p>
+            
+            <ul>
+                <li> <a href="https://github.com/anthonydlsantos/ejemplos_python" target="_blank" >Ejemplos/ejercicios con Python </a>  </li>
+                <li> <a href="https://github.com/anthonydlsantos/arbolesDecision" target="_blank" >Métodos basados en árboles </a>   </li>
+            </ul>
 
         </article>
-
+        <article class="otros">
+            <!-- Matemáticas ( por completar... ) -->
+        </article>
     </section>
 
-    <section id="repositorios" >
-        <p> Repositorios ... </p>
-    </section>
-
+    <!-- Seccion sobre mi ... -->
     <section id="sobreMi" >
-        <p> sobre mi ... </p>
+        <article>
+            <header>
+                <h2> Sobre mi.  </h2>
+            </header>
+            <p>
+                Hola, que tal? <br>
+                Actualmente soy estudiante de la Licenciatura en Matemática, Facultad de Ciencias UdelaR. 
+                Interesado en la Matemática aplicada; Física Matemática, Matemática Industrial, Estadística, entre otras...
+                
+                Tengo un gran interes en la relación de la Matemática con la Informática; Temas como el Aprendizaje Automatico, 
+                análisis y ciencia de datos, son algunos temas de interes
+            </p>
+            
+            <div class="frase">
+                <p> Aprender y compartir saberes. </p>
+            </div>
+            
+            <p> De la ciudad de Rivera-Uruguay, frontera con Santana do Livramento-RS Brasil. Actualmente viviendo en Montevideo. </p>
+
+        </article>
+        <!-- img Perfil -->
+        <figure>
+            <img src="./img/fotoPerfilgithub.png" alt="Foto Perfil">
+        </figure>
     </section>
 
-    <script src="./js/mainJs.js"></script>
+    <footer>
+        <p> Ultima modificación: 24/10/2022  </p>
+    </footer>
+
+    <script src="js/mainJs.js"></script>
 </body>
 </html>

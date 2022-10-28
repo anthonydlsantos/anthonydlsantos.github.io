@@ -1,0 +1,116 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+    scroll-behavior: smooth;
+}
+
+header h1 { display: none}
+header button {
+    display: block;
+    border: none;
+    background: none;
+    text-align: left;
+    margin-left: 87%;
+    font-size: 1.5rem;
+}
+
+#homeMenu {
+    position: fixed;
+    top: 0%;
+    background: #f7edf5f7;
+    border-radius: 3px;
+    padding: 2%;
+    box-shadow: 0px 0px 8px 0px grey;
+    z-index: 1;
+    left: 0;
+    width: 70%;
+}
+
+#cerrarMenu {
+    display: block;
+    color: #686767;
+    font-weight: bold;
+}
+
+#homeMenu li {
+    display: block;
+    width: 70%;
+    margin: auto;
+    padding: 7%;
+    font-size: .83rem;
+}
+
+#homeMenu a { color: black}
+
+#homeMenu h4 {
+    display: block;
+    width: 100%;
+    font-size: .73rem;
+    font-weight: 300;
+    text-align: center;
+    border-top: 1px solid gray;
+    margin-top: 7%;
+    margin-bottom: 3%;
+    padding: 5%;
+}
+
+#imgBg {width: 71%;}
+#imgBg img {box-shadow: 0px 0px 0px rgb(163, 163, 163);}
+
+#banner .relleno {display: none;}
+
+#banner article { margin-top: 53%; }
+
+.redesSociales { margin-top: 11%; }
+.redesSociales svg {width: 23%;}
+
+#homeMenu {display: none;}
+
+.frase {margin-top: 23%;}
+.frase p { font-size: 1rem;}
+
+#novedades, #repositorios, #sobreMi {
+    display: block;
+    margin-top: 23%;
+}
+
+#novedades article, #repositorios article, #sobreMi article{
+    width: 93%;
+}
+
+#novedades h2, #repositorios h2, #sobreMi h2 {
+    font-size: .93rem;
+}
+
+#novedades h4 {
+    font-size: .93em;
+}
+
+#novedades a, #repositorios a {
+    margin-left: 57%;
+}
+
+#novedades figure {
+    width: 97%;
+}
+
+#novedades figure img {
+    width: 97%;
+}
+
+#repositorios a {
+    margin-left: 2%;
+}
+
+#sobreMi figure {
+    width: 219px;
+    margin-top: 11%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    margin-top: 11%;
+}
