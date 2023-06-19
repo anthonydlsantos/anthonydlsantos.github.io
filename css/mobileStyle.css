@@ -76,6 +76,13 @@ header button {
     margin-top: 23%;
 }
 
+.line {
+    padding: .2%;
+    background: #dbceff;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
 #novedades article, #repositorios article, #sobreMi article{
     width: 93%;
 }
@@ -110,6 +117,22 @@ header button {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+#sobreMi ul {
+    display: flex;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+#sobreMi ul li {
+    display: block;
+    background: rgb(255, 195, 127);
+    border-radius: 11px;
+    margin: 2%;
+    font-size: .87rem;
+}
+
 
 footer {
     margin-top: 11%;

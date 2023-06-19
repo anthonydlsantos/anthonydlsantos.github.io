@@ -26,7 +26,7 @@ header h1 {
     margin-bottom: auto;
     text-align: right;
     width: 100%;
-    color: #997093;
+    color: #330BE5;
     padding-right: 2%;
 }
 
@@ -111,7 +111,7 @@ header h1 {
 
 #homeMenu a {
     text-decoration: none;
-    color: #997093;
+    color: #4927E4;
 }
 
 #homeMenu a:hover, #novedades a:hover, #repositorios a:hover {
@@ -137,10 +137,10 @@ header h1 {
 
 .frase p, #sobreMi .frase p {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.35rem;
     font-weight: 400;
     font-style: italic;
-    color: gray;
+    color: rgb(19, 19, 19);
     text-shadow: 0px 2px 6px #997093;
     
 }
@@ -167,6 +167,7 @@ header h1 {
 #novedades h2, #repositorios h2, #sobreMi h2 {
     font-size: 1rem;
     padding-left: 2%;
+    color: #0E0242;
 }
 
 #novedades h4 {
@@ -201,6 +202,17 @@ header h1 {
     color: blueviolet;
     margin-left: 80%;
 }
+
+.line {
+    padding: .1%;
+    background: #dbceff;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+
+/* repositorios */
+
 #repositorios a {
     margin-left: 3%;
 }
@@ -237,3 +249,17 @@ footer {
 }
 
 #sobreMi .frase  { margin-top: 3%; }
+
+#sobreMi ul {
+    display: flex;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+#sobreMi ul li {
+    display: block;
+    background: rgb(255, 195, 127);
+    border-radius: 11px;
+    margin: 2%;
+    font-size: .87rem;
+}
