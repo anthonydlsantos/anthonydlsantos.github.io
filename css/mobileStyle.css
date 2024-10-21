@@ -76,6 +76,13 @@ header button {
     margin-top: 23%;
 }
 
+.line {
+    padding: .2%;
+    background: #dbceff;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
 #novedades article, #repositorios article, #sobreMi article{
     width: 93%;
 }
@@ -110,6 +117,58 @@ header button {
     margin-left: auto;
     margin-right: auto;
 }
+
+.otros figure {
+    width: 100%;
+    border: 1px solid #f1d1fd;
+    border-radius: 11px;
+    padding: 1%;
+  }
+  
+  .otros img {
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  /*  --- */
+  
+  /*  separador */
+  
+  #separadorImg{
+      margin-top: 13%;
+      margin-bottom: 13%;
+  }
+  
+  #separadorImg figure {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  #separadorImg img {
+      width: 23%;
+  }
+  
+  
+  
+  /* ----  */
+
+#sobreMi ul {
+    display: flex;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+#sobreMi ul li {
+    display: block;
+    background: rgb(255, 195, 127);
+    border-radius: 11px;
+    margin: 2%;
+    font-size: .87rem;
+}
+
 
 footer {
     margin-top: 11%;
